@@ -1,0 +1,11 @@
+#(一)
+length = eval(input('請輸入正方形邊長:'))
+print('邊長為:%.2f' % length)
+print('周長為:%.2f' % (length*4))
+print('面積為:%.2f' % (length*length))
+
+#(二)
+length = eval(input('請輸入正方形邊長:'))
+print('邊長為:{:.2f}'.format(length))
+print('周長為:{:.2f}'.format(length*4))
+print('面積為:{:.2f}'.format(length*length))
