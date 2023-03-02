@@ -14,7 +14,7 @@ def element_exist():
         return False
     
 
-#第一題 (置頂文章想破頭了還是會出現QQ)
+#第一題 (置頂文章會出現)
 url = 'https://www.ptt.cc/bbs/Gossiping/index.html'
 driver=webdriver.Chrome()
 driver.get(url)
